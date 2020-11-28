@@ -1,13 +1,12 @@
 package com.example.notes;
 
-import android.app.ActionBar;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.view.Menu;
 
+import com.example.notes.Util.Logging;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
-import com.google.android.material.snackbar.Snackbar;
 import com.google.android.material.navigation.NavigationView;
 
 import androidx.navigation.NavController;
@@ -19,6 +18,8 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 
 public class MainActivity extends AppCompatActivity {
+
+    public static String TAG = MainActivity.class.getSimpleName();
 
     private AppBarConfiguration mAppBarConfiguration;
 
@@ -69,6 +70,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void launchAddNotes(View view) {
+        Logging.debug(TAG, "launching addNotes");
         Intent intent = new Intent(this, AddNotes.class);
         startActivity(intent);
     }
