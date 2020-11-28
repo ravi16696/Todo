@@ -51,16 +51,6 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onResume() {
         super.onResume();
-        View decorView = getWindow().getDecorView();
-        // Hide the status bar.
-        int uiOptions = View.SYSTEM_UI_FLAG_FULLSCREEN;
-        if(decorView != null)
-            decorView.setSystemUiVisibility(uiOptions);
-    // Remember that you should never show the action bar if the
-    // status bar is hidden, so hide that too if necessary.
-        ActionBar actionBar = getActionBar();
-        if(actionBar != null)
-            actionBar.hide();
     }
 
 
