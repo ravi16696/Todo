@@ -10,4 +10,5 @@
     <string name="menu_home">Notes</string>
     <string name="menu_gallery">Reminders</string>
     <string name="menu_slideshow">Archive</string>
+    <string name="brush">brush</string>
 </resources>
