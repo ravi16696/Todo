@@ -29,7 +29,8 @@
         android:background="@null"
         android:ems="10"
         android:hint="Note"
-        android:inputType="textPersonName" />
+        android:inputType="textMultiLine"
+        />
 
     <com.google.android.material.bottomappbar.BottomAppBar
         android:id="@+id/bottomAppBar"
@@ -46,7 +47,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_anchor="@id/bottomAppBar"
-        app:maxImageSize="35dp"
+        app:borderWidth="5dp"
+        app:backgroundTint="@android:color/background_dark"
+        app:maxImageSize="50dp"
 
         android:src="@drawable/ic_floating_button" />
 
