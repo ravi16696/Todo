@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navIcon_1"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_library_add"
+        android:title="brush"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/navIcon_2"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_edit_24"
+        android:title="brush"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/navIcon_3"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_keyboard_voice"
+        android:title="brush"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/navIcon_5"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_image"
+        android:title="brush"
+        app:showAsAction="always" />
+
+</menu>
