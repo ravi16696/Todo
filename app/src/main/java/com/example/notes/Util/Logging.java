@@ -40,7 +40,7 @@ public class Logging {
         }
     }
 
-    public static void log(int level, String tag, Object... objects) {
+    private static void log(int level, String tag, Object... objects) {
             StringBuilder sb = new StringBuilder();
             for (Object obj : objects) {
                 sb.append(obj);

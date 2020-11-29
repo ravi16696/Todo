@@ -69,7 +69,7 @@ public class MainActivity extends AppCompatActivity {
                 || super.onSupportNavigateUp();
     }
 
-    private void launchAddNotes(View view) {
+    public void launchAddNotes(View view) {
         Logging.debug(TAG, "launching addNotes");
         Intent intent = new Intent(this, AddNotes.class);
         startActivity(intent);
